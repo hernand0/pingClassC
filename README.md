@@ -4,9 +4,9 @@ A simple ping tool to look for active hosts in a class C local network
 ```c++
 OUTPUT:
 
-Reachable hosts: 1 
- ['192.168.0.10']
+Reachable hosts: 2
+ ['192.168.0.10', '192.168.0.13']
 
-Unreachable hosts: 4 
- ['192.168.0.11', '192.168.0.12', '192.168.0.13', '192.168.0.14']
+Unreachable hosts: 3
+ ['192.168.0.11', '192.168.0.12', '192.168.0.14']
 ```
