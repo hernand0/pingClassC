@@ -5,8 +5,8 @@ hostname = your class c net
 a = begining of the hosts we look for
 b = end of the hosts we look for
 
-If we want to ping the hosts between 192.168.0.10 and 192.168.0.20:
-hostname('192.168.0.'), a(10), b(21)
+If we want to ping the hosts between 192.168.0.10 and 192.168.0.14:
+hostname('192.168.0.'), a(10), b(15)
 
 diegoHERNANDO#2021
 www.diegohernando.es
@@ -39,7 +39,7 @@ def pingTo(hostname, a = 1, b = 256): # defaults for beggining and end of the IP
     return activas, caidas
 
 
-pingTo('192.168.0.', 10, 21)
+pingTo('192.168.0.', 10, 15)
 print('\n\n'+'='*33,'\n')
 print('Reachable hosts:', len(activas), '\n', activas)
 print('\nUnreachable hosts:', len(caidas), '\n', caidas)
